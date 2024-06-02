@@ -20,7 +20,7 @@ This project aims to track the soccer ball during a match using deep learning te
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/TrackNet-SoccerBall.git
+    git clone https://github.com/Rohitkushwaha79/Soccer-Ball-Tracker.git
     cd TrackNet-SoccerBall
     ```
 
@@ -35,7 +35,7 @@ This project aims to track the soccer ball during a match using deep learning te
 - Download the dataset from [link](https://www.soccer-net.org/data#h.qhlkhzlxi2ya).
  
 ### Create Custom Soccer ball tracking Dataset
-- Generate the custom dataset using the notebook [SoccerNet_Jersey_Extraction_Dataset_Creation.ipynb](notebooks/SoccerNet_Jersey_Extraction_Dataset_Creation.ipynb).
+- Generate the custom dataset using the notebook [SoccerNet_Jersey_Extraction_Dataset_Creation.ipynb](notebooks/Ball_Tracking_Dataset_Creation.ipynb).
 - Dataset File Structure:
 ```
   Ball_Tracking_Dataset
@@ -77,10 +77,4 @@ This project aims to track the soccer ball during a match using deep learning te
 
 ```
 
-## Credits
 
-This project is based on the [TrackNetV3](https://github.com/alenzenx/TrackNetV3.git) repository. Full credit goes to the original authors for their work on the model.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
