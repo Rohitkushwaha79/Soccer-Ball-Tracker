@@ -1,6 +1,11 @@
 # TrackNet-SoccerBall
 
-TrackNet-SoccerBall is a project for tracking the soccer ball in a soccer match using the TrackNet model. This project leverages the TrackNetV3 model to accomplish accurate and efficient ball tracking.
+TrackNet-SoccerBall is a project for tracking the soccer ball in a soccer match using the TrackNet model. This project leverages the TrackNetV3 model to accomplish ball tracking.
+
+## Repository Link
+
+This project leverages the code and model from the following GitHub repository:
+[TrackNetV3](https://github.com/alenzenx/TrackNetV3.git)
 
 ## Table of Contents
 
@@ -13,7 +18,7 @@ TrackNet-SoccerBall is a project for tracking the soccer ball in a soccer match 
 
 ## Introduction
 
-This project aims to track the soccer ball during a match using deep learning techniques. The TrackNetV3 model is employed to detect and track the ball in each frame of the video. The dataset used for training and evaluation is sourced from [SoccerNet](https://www.soccer-net.org/data#h.qhlkhzlxi2ya).
+This project aims to track the soccer ball during a match using deep learning techniques. The TrackNet2 model is employed to detect and track the ball in each frame of the video. The dataset used for training and evaluation is sourced from [SoccerNet](https://www.soccer-net.org/data#h.qhlkhzlxi2ya).
 
 ## Installation
 
