@@ -12,9 +12,8 @@ This project leverages the code and model from the following GitHub repository:
 - [Introduction](#introduction)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Dataset](#dataset)
-- [Credits](#credits)
-- [License](#license)
+- [Results](#results)
+
 
 ## Introduction
 
@@ -81,5 +80,27 @@ This project aims to track the soccer ball during a match using deep learning te
         └── match49/
 
 ```
+### Training
+
+```bash
+python train.py --num_frame 3 --epochs 30 --batch_size 4 --learning_rate 0.001 --save_dir exp
+```
+### Forecast
+
+```bash
+python predict.py --video_file=test.mp4 --model_file=exp/model_best.pt --save_dir pred_result
+```
+
+## Results
+After training  model, got 63% test accuracy.
+
+![performance](https://github.com/Rohitkushwaha79/Soccer-Ball-Tracker/assets/118690283/56bece4d-5ca2-4990-b591-5084ce64f2de)
+
+### Prediction on video
+
+
+https://github.com/Rohitkushwaha79/Soccer-Ball-Tracker/assets/118690283/f589b15e-96a5-46f1-b807-620172e1c3b6
+
+
 
 
