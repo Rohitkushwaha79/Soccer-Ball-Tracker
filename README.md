@@ -40,7 +40,7 @@ This project aims to track the soccer ball during a match using deep learning te
 - Download the dataset from [link](https://www.soccer-net.org/data#h.qhlkhzlxi2ya).
  
 ### Create Custom Soccer ball tracking Dataset
-- Generate the custom dataset using the notebook [SoccerNet_Jersey_Extraction_Dataset_Creation.ipynb](notebooks/Ball_Tracking_Dataset_Creation.ipynb).
+- Generate the custom dataset using the notebook [Ball_Tracking_Dataset_Creation.ipynb](notebooks/Ball_Tracking_Dataset_Creation.ipynb).
 - Dataset File Structure:
 ```
   Ball_Tracking_Dataset
